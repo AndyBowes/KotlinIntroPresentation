@@ -40,7 +40,7 @@ Learning a new language also changes the way that you use your existing language
 * Allows incremental migration to Kotlin from Java
 * Deploy mixed applications as a single artifact
 ---
-'''java
+```java
 Simple Data Objects
 import java.util.Date;
 
@@ -68,13 +68,13 @@ public class Person {
    public String getSurname() {
        return surname;
    }
-'''
+```
 ---
-'''kotlin
+```kotlin
 import java.util.Date
 
 data class Person(val id: String,
     val forename: String,
     val surname: String,
     val dateOfBirth: Date)
-'''
+```
