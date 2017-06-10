@@ -1,15 +1,14 @@
-What is ‘Kotlin’?
-‘New’ programming language
-Developed since 2011, v1.0 released Feb 2016
-Developed by JetBrains
-Makers of IntelliJ & Android Studio
-Runs on Java Virtual Machine (JVM)
-Open Source 
-A ‘Better Java’
-Named after an island in the Baltic Sea
+# What is ‘Kotlin’?
+* ‘New’ programming language
+* Developed by JetBrains
+  * Makers of IntelliJ & Android Studio
+* Developed since 2011, v1.0 released Feb 2016
+* Runs on Java Virtual Machine (JVM)
+* Open Source 
+* A ‘Better Java’
+* Named after an island in the Baltic Sea
 ---
-
-Why was I looking for a new language?
+# Why was I looking for a new language?
 Experience of a number of languages
 Mainly Java & Python
 Python:
@@ -19,27 +18,6 @@ Java:
 Pros - JVM provides portability, Statically Typed
 Cons - Verbose, functional coding via interfaces
 Learning a new language also changes the way that you use your existing language
----
-Characteristics of my ideal language
-Runs on multiple platforms
-Natively compiled or via JVM/CLR
-Statically typed & compiled
-Terse & productive
-True support for functional programming
-Wide community
-Build tools (Gradle, Maven)
-IDEs - IntelliJ, Eclipse
-Availability of frameworks (HTTP, JSON, …)
-Ability to reuse existing libraries
----
-Characteristics of ideal language
-Potential compiled languages
-Go - Google, statically typed with garbage collection 
-Rust - Mozilla, safe, concurrent systems language
-Decided JVM provided better platform
-Portable to more target platforms
-Better instrumentation & support
-Less ‘lock-in’, easier to switch to alternative language.
 ---
 What’s wrong with plain old Java ?
 It’s verbose.
