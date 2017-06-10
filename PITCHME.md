@@ -40,3 +40,41 @@ Learning a new language also changes the way that you use your existing language
 * Allows incremental migration to Kotlin from Java
 * Deploy mixed applications as a single artifact
 ---
+'''java
+Simple Data Objects
+import java.util.Date;
+
+public class Person {
+   private final String id;
+   private final String forename;
+   private final String surname;
+   private final Date dateOfBirth;
+
+   public Person(String id, String forename, String surname, Date dateOfBirth) {
+       this.id = id;
+       this.forename = forename;
+       this.surname = surname;
+       this.dateOfBirth = dateOfBirth;
+   }
+
+   public String getId() {
+       return id;
+   }
+
+   public String getForename() {
+       return forename;
+   }
+
+   public String getSurname() {
+       return surname;
+   }
+'''
+---
+'''kotlin
+import java.util.Date
+
+data class Person(val id: String,
+    val forename: String,
+    val surname: String,
+    val dateOfBirth: Date)
+'''
