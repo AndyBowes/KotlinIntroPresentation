@@ -70,7 +70,10 @@ data class Person(val id: String,
 ```
 
 ---?include=slides/nulls.md
----?include=slides/smartcast.md
----?include=slides/functionparameters.md
----?include=slides/extensionfunctions.md
+
+---?include=slides/smartCast.md
+
+---?include=slides/functionParameters.md
+
+---?include=slides/extensionFunctions.md
 
