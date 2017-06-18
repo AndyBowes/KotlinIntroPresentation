@@ -3,9 +3,9 @@
 ---
 ## What is ‘Kotlin’?
 * ‘New’ programming language|
+  * Developed since 2011, v1.0 released Feb 2016|
 * Developed by JetBrains
   * Makers of IntelliJ & Android Studio|
-* Developed since 2011, v1.0 released Feb 2016|
 * Runs on Java Virtual Machine (JVM)|
 * Open Source
 ---
