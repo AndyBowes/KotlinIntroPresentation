@@ -2,12 +2,12 @@
 
 ---
 ## What is ‘Kotlin’?
-* ‘New’ programming language|
-  * Developed since 2011, v1.0 released Feb 2016|
-* Developed by JetBrains
-  * Makers of IntelliJ & Android Studio|
-* Runs on Java Virtual Machine (JVM)|
-* Open Source
+- ‘New’ programming language |
+  - Developed since 2011, v1.0 released Feb 2016
+- Developed by JetBrains |
+  * Makers of IntelliJ & Android Studio |
+- Runs on Java Virtual Machine (JVM) |
+- Open Source |
 ---
 ## What’s wrong with plain old Java ?
 * It’s verbose.
