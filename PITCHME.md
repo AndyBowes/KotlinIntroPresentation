@@ -5,33 +5,32 @@
 - ‘New’ programming language |
   - Developed since 2011, v1.0 released Feb 2016
 - Developed by JetBrains |
-  * Makers of IntelliJ & Android Studio |
+  * Makers of IntelliJ & Android Studio
 - Runs on Java Virtual Machine (JVM) |
 - Open Source |
 ---
 ## What’s wrong with plain old Java ?
-* It’s verbose.
+* It’s verbose. |
   * Too much ‘boilerplate’ code.
-* Multiple overload methods/constructors.
-* Runtime Errors
-* Null Pointers
-* Class Cast exceptions
-* Functional paradigm is still an afterthought.
+* Slow to Change |
+* Multiple overload methods/constructors. |
+* Null Pointers |
+* Class Cast exceptions |
+* Functional paradigm is still an afterthought. |
   * Java 8 over-promised & under-delivered
   * Lambda functions treated as instances of interfaces
 ---
-## 10 reasons to consider Kotlin as your next language 
-* 100% Java Interoperability
+## Kotlin's Relationship to Java
 * All code compiles to pure Java byte-code
-* Kotlin classes can invoke methods in Java classes
-* Java classes can invoke Kotlin functions
-* Kotlin can use standard Java libraries
-* Many Kotlin specific libraries are available but can continue to use familiar Java libraries
-* Allows incremental migration to Kotlin from Java
-* Deploy mixed applications as a single artifact
+* 100% Java Interoperability |
+  * Kotlin classes can invoke methods in Java classes
+  * Java classes can invoke Kotlin functions
+* Kotlin can use standard Java libraries |
+* Allows incremental migration to Kotlin from Java |
+* Deploy mixed applications as a single artifact |
 ---
+## Simple Data Objects - Java
 ```Java
-Simple Data Objects
 import java.util.Date;
 
 public class Person {
@@ -60,6 +59,7 @@ public class Person {
    }
 ```
 ---
+## Simple Data Objects - Kotlin
 ```Kotlin
 import java.util.Date
 
@@ -68,3 +68,9 @@ data class Person(val id: String,
     val surname: String,
     val dateOfBirth: Date)
 ```
+
+---?include=slides/nulls.md
+---?include=slides/smartcast.md
+---?include=slides/functionparameters.md
+---?include=slides/extensionfunctions.md
+
