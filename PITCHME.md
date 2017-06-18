@@ -1,23 +1,13 @@
-## What is ‘Kotlin’?
-* ‘New’ programming language
-* Developed by JetBrains
-  * Makers of IntelliJ & Android Studio
-* Developed since 2011, v1.0 released Feb 2016
-* Runs on Java Virtual Machine (JVM)
-* Open Source 
-* A ‘Better Java’
-* Named after an island in the Baltic Sea
+# Introduction to Kotlin
+
 ---
-## Why was I looking for a new language?
-Experience of a number of languages
-Mainly Java & Python
-Python:
-Pros - Terse code, good support for functional coding
-Cons - Dynamically typed, uncompiled.
-Java:
-Pros - JVM provides portability, Statically Typed
-Cons - Verbose, functional coding via interfaces
-Learning a new language also changes the way that you use your existing language
+## What is ‘Kotlin’?
+* ‘New’ programming language|
+* Developed by JetBrains
+  * Makers of IntelliJ & Android Studio|
+* Developed since 2011, v1.0 released Feb 2016|
+* Runs on Java Virtual Machine (JVM)|
+* Open Source
 ---
 ## What’s wrong with plain old Java ?
 * It’s verbose.
