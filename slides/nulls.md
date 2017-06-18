@@ -30,5 +30,5 @@ fun getCheckNulls(): Int{
 @[2-3](Can't assign null to non-null variable)
 @[5-6](Use '?' suffix to indicate nullable variable)
 @[8-11](Need to check if variable is null before using it)
-@[13-14](Safe check returns length or Null)
-@[16-17](Elvis operator check returns length or default)
+@[13-15](Safe check returns length or Null)
+@[16-18](Elvis operator check returns length or default)
