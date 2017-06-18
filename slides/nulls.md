@@ -4,7 +4,7 @@
 val name: String - Cannot be assigned null
 val name: String? - Can be set to a value or null
 - Unsafe calls are prevented by the compiler
----
++++
 ## Compile Time Null Checks
 ``` Kotlin
 fun getCheckNulls(): Int{
