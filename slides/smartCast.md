@@ -1,7 +1,7 @@
 ## Smart Casting
 - Type checks with the is or !is operator |
-- Compiler tracks is checks and performs automatic cast
-- No need to create extra variables for cast results
+- Compiler tracks is checks and performs automatic cast |
+- No need to create extra variables for cast results |
 +++
 ### Smart Casting Examples
 ```
