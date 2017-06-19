@@ -10,24 +10,24 @@
 - Open Source |
 ---
 ## What’s wrong with plain old Java ?
-* It’s verbose. |
+- It’s verbose. |
   * Too much ‘boilerplate’ code.
-* Slow to Change |
-* Multiple overload methods/constructors. |
-* Null Pointers |
-* Class Cast exceptions |
-* Functional paradigm is still an afterthought. |
-  * Java 8 over-promised & under-delivered
-  * Lambda functions treated as instances of interfaces
+- Slow to Change |
+- Multiple overload methods/constructors. |
+- Null Pointers |
+- Class Cast exceptions |
+- Functional paradigm is still an afterthought. |
+  - Java 8 over-promised & under-delivered
+  - Lambda functions treated as instances of interfaces
 ---
 ## Kotlin's Relationship to Java
-* All code compiles to pure Java byte-code
-* 100% Java Interoperability |
-  * Kotlin classes can invoke methods in Java classes
-  * Java classes can invoke Kotlin functions
-* Kotlin can use standard Java libraries |
-* Allows incremental migration to Kotlin from Java |
-* Deploy mixed applications as a single artifact |
+- All code compiles to pure Java byte-code
+- 100% Java Interoperability |
+  - Kotlin classes can invoke methods in Java classes
+  - Java classes can invoke Kotlin functions
+- Kotlin can use standard Java libraries |
+- Allows incremental migration to Kotlin from Java |
+- Deploy mixed applications as a single artifact |
 ---
 ## Simple Data Objects - Java
 ```Java
