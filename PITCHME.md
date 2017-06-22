@@ -9,6 +9,9 @@
 - Runs on Java Virtual Machine (JVM) |
 - Open Source |
 ---
+![Effective Java](assets/images/effectiveJava_cover.png)|
+James Gosling - "I sure wish I had this book ten years ago. Some might think that I don't need any Java books, but I need this one."|
+---
 ## What’s wrong with plain old Java ?
 - It’s verbose. |
   * Too much ‘boilerplate’ code.
