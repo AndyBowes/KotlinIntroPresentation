@@ -4,6 +4,7 @@
 val name: String - Cannot be assigned null
 val name: String? - Can be set to a value or null
 - Unsafe calls are prevented by the compiler
+
 +++
 ## Compile Time Null Checks
 ``` Kotlin
@@ -21,10 +22,10 @@ fun getCheckNulls(): Int{
    }
 
    // Safe Call Operator - Returns length or Null as an Int?
-   var i = b?.length 
+   var i = b?.length
 
    // Elvis Operator - Returns either the length of the String or -1 if b is null
-   return b?.length ?: -1 
+   return b?.length ?: -1
 }
 ```
 @[2-3](Can't assign null to non-null variable)

@@ -1,15 +1,18 @@
 ## The Basics
+
 +++
 ## Objects Everywhere
 - Everything is an object. |
 - No 'primitive' types. |
 - Data types are very similar to Java |
+
 +++
 ## Numeric Data Types
 - Numeric Types |
   - Integer : Long, Int, Short, Byte
   - Decimal : Float, Double
 - Compiles to primitive types (unless nullable) |
+
 +++
 ## Numeric Conversion
 - No automatic conversion between types
@@ -20,6 +23,9 @@ val i: Int = b // ERROR
 
 val i: Int = b.toInt() // Ok Explicitly widened
 ```
+@[1-2](Cannot assign a Byte to an Int)
+@[4](Need to explicitly convert the type)
+
 +++
 ## Numeric Ranges
 ```
@@ -37,6 +43,7 @@ if (x in 1..10) { ... }
 - String |
   - immutable sequences of Char
   - may contain escape characters e.g. "Hello, world!\n"
+
 +++
 ## Raw Strings
 - Raw Strings is deliminated by a triple quote
@@ -48,6 +55,7 @@ val text = """
         print(c)
 """
 ```
+
 +++
 ## String Templates
 - Strings can contain placeholders for variables or expressions.
@@ -58,10 +66,13 @@ val s = "i = $i"
 val name = "abc"
 val str = "$name.length is ${name.length}"
 ```
+@[1-2](Generates "i = 10")
+@[4-5](Generates "abc.length = 3")
+
 +++
 ## Variable Definitions
 - Reverse of Java notation |
-  - variable name followed by type 
+  - variable name followed by type
 - var - mutable variable
 - val - immutable property
 +++
@@ -69,6 +80,9 @@ val str = "$name.length is ${name.length}"
 val customerName : String = "Andy Bowes"
 val customerName = "Andy Bowes"
 ```
+@[1](Explicitly define variable type)
+@[2](Variable type is inferred by compiler)
+
 +++
 ## Function Definitions
 - Functions are 'fun'
@@ -81,3 +95,6 @@ fun getFullName( cust: Customer): String = "${cust.forename} ${cust.surname}"
 
 fun getFullName( cust: Customer) = "${cust.forename} ${cust.surname}"
 ```
+@[1-3](Full method definition with explicit return type)
+@[5](Method closure is optional for single expression functions)
+@[7](Return type can be inferred for single expression functions)

@@ -1,5 +1,11 @@
+## Functions
+
+
+
+
++++
 ## Extension Functions
-- Add functions onto existing classes even those in stdlib | 
+- Add functions onto existing classes even those in stdlib |
 - No need to create a sub-classes to extend functionality |
 ``` Kotlin
 fun MutableList<Int>.swap(index1: Int, index2: Int) {
@@ -7,8 +13,9 @@ fun MutableList<Int>.swap(index1: Int, index2: Int) {
    this[index1] = this[index2]
    this[index2] = tmp
 }
-This method is now available on all MutableList<Int>
 ```
+This method is now available on all MutableList<Int>
+
 +++
 ## Using Extension Methods
 ``` Kotlin
