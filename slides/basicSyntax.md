@@ -17,6 +17,7 @@
 ## Numeric Conversion
 - No automatic conversion between types
   - Use toInt(), toLong(), ... methods
+
 ``` Kotlin
 val b: Byte = 1 // OK, literals are checked statically
 val i: Int = b // ERROR
@@ -35,6 +36,7 @@ for (x in 2..10 step 2) { ... }
 for (x in 10 downTo 1) { ... }
 if (x in 1..10) { ... }
 ```
+
 +++
 ## Text Data Types
 - Char |
@@ -49,6 +51,7 @@ if (x in 1..10) { ... }
 - Raw Strings is deliminated by a triple quote
   - contains no character escaping
   - may contain new lines and other characters
+
 ``` Kotlin
 val text = """
     for (c in "foo")
@@ -59,6 +62,7 @@ val text = """
 +++
 ## String Templates
 - Strings can contain placeholders for variables or expressions.
+
 ``` Kotlin
 val i = 10
 val s = "i = $i"
@@ -71,11 +75,11 @@ val str = "$name.length is ${name.length}"
 
 +++
 ## Variable Definitions
-- Reverse of Java notation |
+- Reverse of Java notation
   - variable name followed by type
 - var - mutable variable
 - val - immutable property
-+++
+
 ``` Kotlin
 val customerName : String = "Andy Bowes"
 val customerName = "Andy Bowes"
@@ -86,6 +90,7 @@ val customerName = "Andy Bowes"
 +++
 ## Function Definitions
 - Functions are 'fun'
+
 ``` Kotlin
 fun getFullName( cust: Customer): String = {
   return "${cust.forename} ${cust.surname}"

@@ -23,6 +23,7 @@
 - Functional paradigm is still a bit of an afterthought. |
 
 ---?image=assets/images/effectiveJava_cover.jpg&size=contain
+<p><span>&nbsp;</span></p>
 
 ---
 James Gosling, inventor of Java:
