@@ -19,7 +19,7 @@
 - Null Pointers |
 - Class Cast exceptions |
 - Functional paradigm is still a bit of an afterthought. |
----image=assets/images/effectiveJava_cover.jpg&size=contain
+---?image=assets/images/effectiveJava_cover.jpg&size=contain
 James Gosling, inventor of Java:
 > I sure wish I had this book ten years ago.
 > Some might think that I don't need any Java books, but I need this one.
