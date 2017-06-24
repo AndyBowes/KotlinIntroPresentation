@@ -1,18 +1,15 @@
 # Introduction to Kotlin
-
+### Andy Bowes
+### The JVM Thing
+### 20^th^ July 2017
 ---
 ## What is ‘Kotlin’?
 - ‘New’ programming language |
   - Developed since 2011, v1.0 released Feb 2016
 - Developed by JetBrains |
-  * Makers of IntelliJ & Android Studio
+  - Makers of IntelliJ & Android Studio
 - Runs on Java Virtual Machine (JVM) |
 - Open Source |
----
-![Effective Java](assets/images/effectiveJava_cover.png)
-James Gosling, inventor of Java:
-> I sure wish I had this book ten years ago.
-> Some might think that I don't need any Java books, but I need this one.
 ---
 ## What’s wrong with plain old Java ?
 - It’s verbose. |
@@ -21,9 +18,17 @@ James Gosling, inventor of Java:
 - Multiple overload methods/constructors. |
 - Null Pointers |
 - Class Cast exceptions |
-- Functional paradigm is still an afterthought. |
-  - Java 8 over-promised & under-delivered
-  - Lambda functions treated as instances of interfaces
+- Functional paradigm is still a bit of an afterthought. |
+---
+![Effective Java](assets/images/effectiveJava_cover.jpg)
+James Gosling, inventor of Java:
+> I sure wish I had this book ten years ago.
+> Some might think that I don't need any Java books, but I need this one.
+---
+## Effective ~~Java~~ Kotlin
+- Kotlin is designed as a 'better' Java |
+- Directly addresses many issues from Effective Java |
+- Many of these will be highlighted during this talk |
 ---
 ## Kotlin's Relationship to Java
 - All code compiles to pure Java byte-code
@@ -73,12 +78,30 @@ data class Person(val id: String,
     val surname: String,
     val dateOfBirth: Date)
 ```
+---
+## Simple Data Objects - Kotlin (continued)
+Implementations of toString(), equals, and hashCode() are automatically created.
+
+A method to clone an object with
+
+```
+
+
+```
+---?include=slides/basicSyntax.md
+
+---?include=slides/dataObjects.md
 
 ---?include=slides/nulls.md
 
 ---?include=slides/smartCast.md
 
+---?include=slides/classes.md
+
 ---?include=slides/functionParameters.md
 
----?include=slides/extensionFunctions.md
+---?include=slides/functionalProgramming.md
 
+---?include=slides/collections.md
+
+---?include=slides/extensionFunctions.md
