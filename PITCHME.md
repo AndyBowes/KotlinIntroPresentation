@@ -12,7 +12,7 @@
 - Runs on Java Virtual Machine (JVM) |
 - Open Source |
 
----
++++
 ## What’s wrong with plain old Java ?
 - It’s verbose. |
   * Too much ‘boilerplate’ code.
@@ -22,21 +22,21 @@
 - Class Cast exceptions |
 - Functional paradigm is still a bit of an afterthought. |
 
----?image=assets/images/effectiveJava_cover.jpg&size=contain
++++?image=assets/images/effectiveJava_cover.jpg&size=contain
 <p><span>&nbsp;</span></p>
 
----
++++
 James Gosling, inventor of Java:
 > I sure wish I had this book ten years ago.
 > Some might think that I don't need any Java books, but I need this one.
 
----
++++
 ## Effective ~~Java~~ Kotlin
 - Kotlin is designed as a 'better' Java |
 - Directly addresses many issues from Joshua Bloch's Effective Java |
 - Many of these will be highlighted during this talk |
 
----
++++
 ## Kotlin's Relationship to Java
 - All code compiles to pure Java byte-code |
 - 100% Java Interoperability |
