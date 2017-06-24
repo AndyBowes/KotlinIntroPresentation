@@ -1,7 +1,7 @@
 # Introduction to Kotlin
 ### Andy Bowes
 ### The JVM Thing
-### 20^th^ July 2017
+### 20<sup>th</sup> July 2017
 ---
 ## What is ‘Kotlin’?
 - ‘New’ programming language |
