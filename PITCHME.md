@@ -50,8 +50,6 @@ James Gosling, inventor of Java:
 
 ---?include=slides/classes.md
 
----?include=slides/dataObjects.md
-
 ---?include=slides/nulls.md
 
 ---?include=slides/smartCast.md

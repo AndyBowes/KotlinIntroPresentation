@@ -5,8 +5,8 @@
 
 +++
 ## Extension Functions
-- Add functions onto existing classes even those in stdlib |
-- No need to create a sub-classes to extend functionality |
+- Add functions onto existing classes even those in stdlib
+- No need to create a sub-classes to extend functionality
 ``` Kotlin
 fun MutableList<Int>.swap(index1: Int, index2: Int) {
    val tmp = this[index1] // 'this' corresponds to the list
