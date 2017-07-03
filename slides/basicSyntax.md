@@ -89,8 +89,6 @@ val customerName = "Andy Bowes"
 
 +++
 ## Function Definitions
-- Functions are 'fun'
-
 ``` Kotlin
 fun getFullName( cust: Customer): String = {
   return "${cust.forename} ${cust.surname}"

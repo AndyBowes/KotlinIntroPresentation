@@ -57,5 +57,3 @@ James Gosling, inventor of Java:
 ---?include=slides/functions.md
 
 ---?include=slides/functionalProgramming.md
-
----?include=slides/collections.md

@@ -87,7 +87,7 @@ object DataProviderManager {
 ## Delegation
 
 Joshua Bloch, Effective Java:
->Inheritance is a powerful way to achieve code reuse, but it is not always the best tool for the job. Used inappropriately, it leads to fragile software. It is safe to use inheritance within a package, where the subclass and the superclass implementations are under the control of the same programmers. It is also safe to use inheritance when extending classes specifically designed and documented for extension
+>Inheritance is a powerful way to achieve code reuse, but it is not always the best tool for the job. Used inappropriately, it leads to fragile software. It is safe to use inheritance within a package, where the subclass and the superclass implementations are under the control of the same programmers.
 
 <span class"effective">Effective Java: Favour Composition over Inheritance</span>
 
