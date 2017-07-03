@@ -32,7 +32,11 @@ body {
     text-shadow: none; }
 
 
-  span.effective {
+  .reveal blockquote {
+      width: 80%;
+  }
+
+  .reveal span.effective {
       display:block;
       float:left;
       width:46px;
