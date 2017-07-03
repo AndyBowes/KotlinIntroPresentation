@@ -30,3 +30,25 @@ body {
 
   .reveal h1 {
     text-shadow: none; }
+
+
+  span.effective {
+      display:block;
+      float:left;
+      width:46px;
+      height:63px;
+      margin-right:5px;
+      background-image:url("images/dropcap_e.gif");
+      background-repeat:no-repeat;
+      }
+
+
+.reveal ul {
+  list-style-type: disc;
+  color: #f48642;
+}
+
+.reveal ul ul {
+  list-style-type: square;
+  color: #f48642;
+}
