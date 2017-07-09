@@ -55,6 +55,4 @@ James Gosling, inventor of Java:
 
 ---?include=slides/smartCast.md
 
----?include=slides/functions.md
-
 ---?include=slides/functionalProgramming.md

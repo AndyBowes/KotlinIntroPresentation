@@ -1,5 +1,5 @@
+---
 ## Classes
-
 
 
 +++
@@ -12,9 +12,10 @@
 
 
 +++
-### Inheritance
-- All class are final unless explicitly declared otherwise
-- All methods in subclass that override parent must be declared open in parent and marked with override in subclass
+## Inheritance
+- All classes are final unless explicitly declared otherwise
+- Overridable methods must be declared open.
+- Overrided methods must be declared.
 
 ``` Kotlin
 open class Base(p: Int){
@@ -54,7 +55,7 @@ person.hashCode()
 person.toString()
 person.copy()
 ```
-
+######Effective Java: Always override hashCode when you override equals
 ######Effective Java: Make defensive copies when needed
 
 +++
@@ -87,27 +88,28 @@ object DataProviderManager {
 ## Delegation
 
 Joshua Bloch, Effective Java:
->Inheritance is a powerful way to achieve code reuse, but it is not always the best tool for the job. Used inappropriately, it leads to fragile software. It is safe to use inheritance within a package, where the subclass and the superclass implementations are under the control of the same programmers.
+>Inheritance is a powerful way to achieve code reuse, but it is not always the best tool for the job. Used inappropriately, it leads to fragile software.
 
 ######Effective Java: Favour Composition over Inheritance
-
 
 
 +++
 ## Delegation Example
 ```
 interface Printable {
-    fun print()
+    fun print(message: String)
 }
 
-class PrintableImpl(val x: Int) : Printable {
-    override fun print() { print(x) }
+class PrintableImpl(val copies: Int) : Printable {
+    override fun print(message: String) { for (i in 1..copies) {  } }
 }
 
 class Derived(b: Printable) : Printable by b
 
-val printer = PrintableImpl(copies)
+val printer = PrintableImpl(copies=2)
 val derived = Derived(printer)
+
+derived.print("Test Message")
 ```
 @[1-3](Define Interface)
 @[5-7](Provide implementation of interface)

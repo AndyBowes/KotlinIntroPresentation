@@ -1,11 +1,13 @@
+---?image=assets/images/jigsaw.jpeg&size=cover
+## Null Handling
++++
 ## Null Safety
-- No more Null Pointer Exceptions
-- Need to explicitly state that variable/parameter allows nulls
-val name: String - Cannot be assigned null
-val name: String? - Can be set to a value or null
-- Unsafe calls are prevented by the compiler
-
 ######Effective Java: Use assertions to check for Null parameters
+- No more Null Pointer Exceptions |
+- Need to explicitly state that variable/parameter allows nulls |
+  - val name: String - Cannot be assigned null
+  - val name: String? - Can be set to a value or null
+- Unsafe calls are prevented by the compiler |
 
 +++
 ## Compile Time Null Checks
@@ -35,3 +37,12 @@ fun getCheckNulls(): Int{
 @[8-11](Need to check if variable is null before using it)
 @[13-15](Safe check returns length or Null)
 @[16-18](Elvis operator check returns length or default)
++++
+## Null chaining
+
+``` Kotlin
+val city = order?.customer?.address?.city
+
+val city = order?.customer?.address?.city
+              ?: throw IllegalArgumentException("Invalid Order")
+```
