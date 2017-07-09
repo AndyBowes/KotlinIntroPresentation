@@ -51,3 +51,7 @@ body {
 .reveal ul ul {
   list-style-type: circle;
 }
+
+.reveal .slides section .fragment.current-only.current-fragment {
+    display: block;
+}

@@ -1,3 +1,4 @@
+---?image=assets/images/kotlinLighthouse.jpeg&size=contain
 ## Introduction to Kotlin
 #### Andy Bowes
 ### The JVM Thing
