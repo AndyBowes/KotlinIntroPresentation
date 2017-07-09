@@ -27,8 +27,8 @@ class Derived(p: Int) : Base(p) {
 }
 ```
 
-<span class"effective">Effective Java: Design and document for inheritance or else prohibit it</span>
-<span class"effective">Effective Java: Consistently use the override annotation</span>
+######Effective Java: Design and document for inheritance or else prohibit it
+######Effective Java: Consistently use the override annotation
 
 +++
 ## Data Classes - Kotlin
@@ -55,7 +55,7 @@ person.toString()
 person.copy()
 ```
 
-<span class"effective">Effective Java: Make defensive copies when needed</span>
+######Effective Java: Make defensive copies when needed
 
 +++
 ## Implementing Singletons
@@ -73,7 +73,7 @@ object DataProviderManager {
 }
 ```
 
-<span class"effective">Effective Java: Enforce the singleton property with a private constructor or an enum type</span>
+######Effective Java: Enforce the singleton property with a private constructor or an enum type
 
 +++
 ## Companion Objects
@@ -89,7 +89,7 @@ object DataProviderManager {
 Joshua Bloch, Effective Java:
 >Inheritance is a powerful way to achieve code reuse, but it is not always the best tool for the job. Used inappropriately, it leads to fragile software. It is safe to use inheritance within a package, where the subclass and the superclass implementations are under the control of the same programmers.
 
-<span class"effective">Effective Java: Favour Composition over Inheritance</span>
+######Effective Java: Favour Composition over Inheritance
 
 
 
