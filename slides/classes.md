@@ -1,14 +1,30 @@
 ---
 ## Classes
 
-
 +++
-## Class Definitions
-
+### Classes
+- Similar to Java class definition |
+- Multiple classes can be defined in the same file.|
+- File name is independent of class name.|
+- Default visibility is public |
+- Final by default |
 
 +++
 ## Primary Constructors
 
+``` Kotlin
+class Customer(name: String) {
+    init {
+        logger.info("Customer initialized with value ${name}")
+    }
+}
+```
+
+- No code in primary constructor body
+- Code placed in optional init blocks
+
++++
+## Secondary Constructors
 
 
 +++
@@ -83,8 +99,30 @@ object DataProviderManager {
 +++
 ## Sealed Classes
 
+``` Kotlin
+sealed class ChessPiece
+class King() : ChessPiece()
+class Queen() : ChessPiece()
+class Rook() : ChessPiece()
+class Bishop() : ChessPiece()
+class Knight() : ChessPiece()
+class Pawn() : ChessPiece()
+
+fun move(piece: ChessPiece): Unit = when(piece) {
+    is King -> ...
+    is Queen -> ...
+    is Rook -> ...
+    is Bishop -> ...
+    is Knight -> ...
+    is Pawn -> ...
+}
+```
+@[1](Define Sealed class)
+@[2-7](Define)
+@[9-16]()
 
 +++
+
 ## Delegation
 
 Joshua Bloch, Effective Java:
@@ -101,7 +139,7 @@ interface Printable {
 }
 
 class PrintableImpl(val copies: Int) : Printable {
-    override fun print(message: String) { for (i in 1..copies) {  } }
+    override fun print(message: String) { for (i in 1..copies) { ... } }
 }
 
 class Derived(b: Printable) : Printable by b
