@@ -94,7 +94,16 @@ object DataProviderManager {
 
 +++
 ## Companion Objects
+- Provide similar functionality to Java static methods
+``` Kotlin
+class MyClass {
+    companion object Factory {
+        fun create(): MyClass = MyClass()
+    }
+}
 
+val myInstance = MyClass.create()
+```
 
 +++
 ## Sealed Classes
@@ -118,8 +127,8 @@ fun move(piece: ChessPiece): Unit = when(piece) {
 }
 ```
 @[1](Define Sealed class)
-@[2-7](Define)
-@[9-16]()
+@[2-7](Define implementations of sealed class)
+@[9-16](Exhaustive checking in when statements)
 
 +++
 
@@ -129,7 +138,6 @@ Joshua Bloch, Effective Java:
 >Inheritance is a powerful way to achieve code reuse, but it is not always the best tool for the job. Used inappropriately, it leads to fragile software.
 
 ######Effective Java: Favour Composition over Inheritance
-
 
 +++
 ## Delegation Example
