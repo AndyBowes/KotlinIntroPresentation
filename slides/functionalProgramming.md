@@ -7,17 +7,41 @@
   - Accept functions as parameters
   - Return functions as results
 - Functions can also be declared as variables |
+
 +++
-##
+## Higher Order Functions - Example
+
+``` Kotlin
+
+```
 
 +++
 ## Lambda Functions
 - Kotlin supports lambda functions|
-- Simple
+- Clean syntax |
+- No need for functional interfaces |
+
++++
+## Lamda Functions - Examples
+
+
 
 +++
 ## Collections
-- 
+- Similar to Java 8 Streams |
+- Simpler syntax than Java |
+-
+
+
++++
+## Collections Example
+
+
++++
+## Type Aliases
+- Provides a alias for existing types |
+- ```typealias MovieCast = List<Actor>``` |
+- Can improve code readability
 
 +++
 ## Functional Support

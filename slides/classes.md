@@ -89,7 +89,6 @@ object DataProviderManager {
         get() = // ...
 }
 ```
-
 ######Effective Java: Enforce the singleton property with a private constructor or an enum type
 
 +++

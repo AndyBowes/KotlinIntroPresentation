@@ -6,46 +6,44 @@
 - Everything is an object. |
 - No 'primitive' types. |
 - Data types are very similar to Java |
+  - Root class in Any
 
 +++
-## Numeric Data Types
+## Basic Data Types
 - Numeric Types |
   - Integer : Long, Int, Short, Byte
   - Decimal : Float, Double
-- Compiles to primitive types (unless nullable) |
+- Text Types |
+  - Char, String
 
 +++
-## Numeric Conversion
-- No automatic conversion between types
-  - Use toInt(), toLong(), ... methods
+## Variable Definitions
+- Reverse of Java notation
+  - variable name followed by type
+- var - mutable variable
+- val - immutable property
 
 ``` Kotlin
-val b: Byte = 1 // OK, literals are checked statically
-val i: Int = b // ERROR
-
-val i: Int = b.toInt() // Ok Explicitly widened
+val customerName : String = "Andy Bowes"
+val customerName = "Andy Bowes"
 ```
-@[1-2](Cannot assign a Byte to an Int)
-@[4](Need to explicitly convert the type)
+@[1](Explicitly define variable type)
+@[2](Variable type is inferred by compiler)
 
 +++
 ## Numeric Ranges
 ```
-for (i in 1..100) { ... }  // closed range: includes 100
-for (i in 1 until 100) { ... } // half-open range: does not include 100
+for (i in 1..100) { ... }  
+for (i in 1 until 100) { ... }
 for (x in 2..10 step 2) { ... }
 for (x in 10 downTo 1) { ... }
 if (x in 1..10) { ... }
 ```
-
-+++
-## Text Data Types
-- Char |
-  - no automatic conversion to numbers.
-  - Use c.toInt() to get ASCII code
-- String |
-  - immutable sequences of Char
-  - may contain escape characters e.g. "Hello, world!\n"
+@[1] Closed range: includes both 1 & 100
+@[2] Half-open range: excludes 100
+@[3] Custom increment
+@[4] Decreasing loop counter
+@[5] Range checking
 
 +++
 ## Raw Strings
@@ -74,19 +72,6 @@ val str = "$name.length is ${name.length}"
 @[1-2](Generates "i = 10")
 @[4-5](Generates "abc.length = 3")
 
-+++
-## Variable Definitions
-- Reverse of Java notation
-  - variable name followed by type
-- var - mutable variable
-- val - immutable property
-
-``` Kotlin
-val customerName : String = "Andy Bowes"
-val customerName = "Andy Bowes"
-```
-@[1](Explicitly define variable type)
-@[2](Variable type is inferred by compiler)
 
 +++
 ## Function Definitions
@@ -95,13 +80,23 @@ fun getFullName( cust: Customer): String = {
   return "${cust.forename} ${cust.surname}"
 }
 
-fun getFullName( cust: Customer): String = "${cust.forename} ${cust.surname}"
+fun getFullName( cust: Customer): String =
+                "${cust.forename} ${cust.surname}"
 
 fun getFullName( cust: Customer) = "${cust.forename} ${cust.surname}"
 ```
 @[1-3](Full method definition with explicit return type)
-@[5](Method closure is optional for single expression functions)
-@[7](Return type can be inferred for single expression functions)
+@[5-6](Method closure is optional for single expression functions)
+@[8](Return type can be inferred for single expression functions)
+
++++
+## Function Parameters, Default Values
+
+
++++
+## Using Named Parameters
+
+
 
 +++
 ## Extension Functions
