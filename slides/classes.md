@@ -1,4 +1,4 @@
----?image=assets/images/boats.jpg&size=cover
+---?image=assets/images/blackboard.jpeg&size=cover
 ## Classes
 
 +++
