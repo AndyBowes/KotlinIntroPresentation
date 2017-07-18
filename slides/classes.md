@@ -19,9 +19,18 @@ class Customer(name: String) {
     }
 }
 ```
-
 - No code in primary constructor body
 - Code placed in optional init blocks
+
++++
+## Constructors - Default Values
+- Constructor arguments can have default values
+- Reduces need for overloaded constructors
+
+``` Kotlin
+DummyHashMap(val initialCapacity: Int = 16,
+             val loadFactor : Float = 0.75F)
+```
 
 +++
 ## Secondary Constructors
@@ -106,6 +115,7 @@ val myInstance = MyClass.create()
 
 +++
 ## Sealed Classes
+- Conceptually similar to Enums
 
 ``` Kotlin
 sealed class ChessPiece
@@ -130,7 +140,13 @@ fun move(piece: ChessPiece): Unit = when(piece) {
 @[9-16](Exhaustive checking in when statements)
 
 +++
+## Type Aliases
+- Added in Kotlin 1.1 |
+- Provides a alias for existing types |
+- ```typealias MovieCast = List<Actor>``` |
+- Can improve code readability and maintainability |
 
++++
 ## Delegation
 
 Joshua Bloch, Effective Java:

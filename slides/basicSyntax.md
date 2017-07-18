@@ -39,11 +39,11 @@ for (x in 2..10 step 2) { ... }
 for (x in 10 downTo 1) { ... }
 if (x in 1..10) { ... }
 ```
-@[1] Closed range: includes both 1 & 100
-@[2] Half-open range: excludes 100
-@[3] Custom increment
-@[4] Decreasing loop counter
-@[5] Range checking
+@[1](Closed range: includes both 1 & 100)
+@[2](Half-open range: excludes 100)
+@[3](Custom increment)
+@[4](Decreasing loop counter)
+@[5](Range checking)
 
 +++
 ## Raw Strings
@@ -91,25 +91,41 @@ fun getFullName( cust: Customer) = "${cust.forename} ${cust.surname}"
 
 +++
 ## Function Parameters, Default Values
+- Ability to define default values for optional parameters
+- Reduces need for overloaded methods
 
+``` Kotlin
+fun createBook(title: String,
+               subtitle : String? = None,
+               paperback : Boolean = true,
+               price: BigDecimal = BigDecimal(7.99)) : Book{
+        ...
+}
+```
+######Effective Java: Use Overloading Judiciously
 
 +++
 ## Using Named Parameters
+- Ability to specify optional parameters by name
+- Overrides default value if supplied
 
-
+``` Kotlin
+createBook("Kotlin in Action",
+            paperback=False,
+            price = BigDecimal(14.99))
+```
 
 +++
 ## Extension Functions
-- Add functions onto existing classes even those in stdlib
-- No need to create a sub-classes to extend functionality
+- Add functions onto existing classes
+- No need to create a sub-classes
 ``` Kotlin
-fun MutableList<Int>.swap(index1: Int, index2: Int) {
-   val tmp = this[index1] // 'this' corresponds to the list
-   this[index1] = this[index2]
-   this[index2] = tmp
+fun <T> MutableList<T>.swap(index1: Int, index2: Int){
+    val tmp : T = this[index1]
+    this[index1] = this[index2]
+    this[index2] = tmp
 }
 ```
-This method is now available on all MutableList<Int>
 
 +++
 ## Using Extension Methods

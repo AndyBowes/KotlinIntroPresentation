@@ -1,16 +1,25 @@
 ---?image=assets/images/kotlinLighthouse.jpeg&size=contain
-## Introduction to Kotlin
+## <span color="white">Introduction to Kotlin</span>
 #### Andy Bowes
 ### The JVM Thing
 ##### 20<sup>th</sup> July 2017
 
 ---
+## Aim of Presentation
+- Provide Overview of Kotlin |
+- Origin of Kotlin |
+- Introduce basic syntax |
+- Provide a 'feel' for the language |
+
++++
 ## What is ‘Kotlin’?
 - ‘New’ programming language |
   - Developed since 2011, v1.0 released Feb 2016
 - Developed by JetBrains |
   - Makers of IntelliJ & Android Studio
 - Runs on Java Virtual Machine (JVM) |
+ - JavaScript
+ - Native
 - Open Source |
 
 +++
@@ -56,3 +65,5 @@ James Gosling, inventor of Java:
 ---?include=slides/smartCast.md
 
 ---?include=slides/functionalProgramming.md
+
+---?include=slides/summary.md

@@ -38,12 +38,6 @@
 
 
 +++
-## Type Aliases
-- Provides a alias for existing types |
-- ```typealias MovieCast = List<Actor>``` |
-- Can improve code readability
-
-+++
 ## Functional Support
 - In terms of inbuilt functional support |
   - Java < Kotlin < Scala
