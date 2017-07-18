@@ -1,8 +1,8 @@
 ---?image=assets/images/kotlinLighthouse.jpeg&size=contain
 ## <span style="color:white">Introduction to Kotlin</span>
-#### Andy Bowes
-### The JVM Thing
-##### 20<sup>th</sup> July 2017
+#### <span style="color:white">Andy Bowes</span>
+### <span style="color:white">The JVM Thing</span>
+##### <span style="color:white">20<sup>th</sup> July 2017</span>
 
 ---
 ## Aim of Presentation

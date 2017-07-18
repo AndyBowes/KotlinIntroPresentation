@@ -1,5 +1,9 @@
 ---
-## The Basics
+## Basic Syntax
+
++++
+## Pragmatic language
+- 
 
 +++
 ## Objects Everywhere
