@@ -1,5 +1,5 @@
 ---?image=assets/images/kotlinLighthouse.jpeg&size=contain
-## <span color="white">Introduction to Kotlin</span>
+## <span style="color:white">Introduction to Kotlin</span>
 #### Andy Bowes
 ### The JVM Thing
 ##### 20<sup>th</sup> July 2017
