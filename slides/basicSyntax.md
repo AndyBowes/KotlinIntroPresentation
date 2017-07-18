@@ -1,16 +1,23 @@
----
+---?image=assets/images/ingredients.jpeg&size=cover
 ## Basic Syntax
 
 +++
 ## Pragmatic language
-- 
+- Started as JetBrains internal language |
+- Kotlin is statically typed |
+- Combination of OO & Functional |
+- Prefers code clarity over brevity |
+- 'Borrows' concepts from multiple sources |
+  - Elements from Groovy, Scala, Ceylon, Swift, ...
 
 +++
 ## Objects Everywhere
 - Everything is an object. |
 - No 'primitive' types. |
 - Data types are very similar to Java |
-  - Root class in Any
+  - Root class is Any not Object
+  - Nothing - null values
+  - Unit - void return type
 
 +++
 ## Basic Data Types
@@ -75,7 +82,6 @@ val str = "$name.length is ${name.length}"
 ```
 @[1-2](Generates "i = 10")
 @[4-5](Generates "abc.length = 3")
-
 
 +++
 ## Function Definitions

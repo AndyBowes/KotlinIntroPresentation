@@ -15,6 +15,5 @@
   - Dmitry Jemerov and Svetlana Isakova
 - Udemy Course : https://www.udemy.com/kotlin-course/
 - Twitter : @Kotlin
-- Kotlin Yorkshire
+- Kotlin Yorkshire : @KotlinYorkshire
   - https://www.meetup.com/Kotlin-Yorkshire-Meetup-Group/
-  - @KotlinYorkshire

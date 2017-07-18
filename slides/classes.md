@@ -1,11 +1,11 @@
----
+---?image=assets/images/blackboard.jpeg&size=cover
 ## Classes
 
 +++
 ### Classes
 - Similar to Java class definition |
-- Multiple classes can be defined in the same file.|
-- File name is independent of class name.|
+- Multiple classes can be defined in the same file|
+- File name is independent of class name|
 - Default visibility is public |
 - Final by default |
 
@@ -18,9 +18,12 @@ class Customer(name: String) {
         logger.info("Customer initialized with value ${name}")
     }
 }
+
+val customer = Customer("Guy Edwards")
 ```
 - No code in primary constructor body
 - Code placed in optional init blocks
+- Instances created without new keyword
 
 +++
 ## Constructors - Default Values
@@ -34,7 +37,16 @@ DummyHashMap(val initialCapacity: Int = 16,
 
 +++
 ## Secondary Constructors
+- Class may have secondary constructor
+- Each secondary constructor *must* invoke primary constructor
 
+``` Kotlin
+class Person(val name: String) {
+    constructor(name: String, parent: Person) : this(name) {
+        parent.children.add(this)
+    }
+}
+```
 
 +++
 ## Inheritance
