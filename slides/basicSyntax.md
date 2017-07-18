@@ -70,8 +70,9 @@ val text = """
 ```
 
 +++
-## String Templates
-- Strings can contain placeholders for variables or expressions.
+## String Interpolation
+- Strings can contain placeholders for variables or expressions
+- Cleaner alternative to String.format()
 
 ``` Kotlin
 val i = 10

@@ -1,8 +1,8 @@
----?image=assets/images/blackboard.jpeg&size=cover
+---?image=assets/images/boats.jpg&size=cover
 ## Classes
 
 +++
-### Classes
+## Classes
 - Similar to Java class definition |
 - Multiple classes can be defined in the same file|
 - File name is independent of class name|
