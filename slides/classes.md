@@ -115,6 +115,7 @@ object DataProviderManager {
 +++
 ## Companion Objects
 - Provide similar functionality to Java static methods
+
 ``` Kotlin
 class MyClass {
     companion object Factory {

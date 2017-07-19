@@ -31,7 +31,7 @@ val taxValue = orderValue.calculateTax(calculator)
 - Kotlin supports lambda functions|
 - Cleaner syntax than Java |
 - No need for functional interfaces |
-- Any function passed as a parameter can be replaced by a lambda
+- Any function passed as a parameter can be replaced by a lambda |
 
 +++
 ## Lamda Functions - Example
@@ -54,7 +54,7 @@ people.filter{it.name.startsWith("S")}
   - Sorting
   - Mapping
   - Grouping/Partitioning
-- Supports potentially infinite sequences
+- Supports potentially infinite sequences |
 
 +++
 ## Collections Example
