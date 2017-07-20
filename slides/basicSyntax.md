@@ -58,7 +58,7 @@ if (x in 1..10) { ... }
 
 +++
 ## Raw Strings
-- Raw Strings is deliminated by a triple quote
+- Raw Strings are delimited by a triple quote
   - contains no character escaping
   - may contain new lines and other characters
 
